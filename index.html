@@ -776,7 +776,7 @@
       </div>
       <div>
         <div class="brand-name">Brandon's Send-Off</div>
-        <div class="brand-sub">Charles Town · Jun 5–7</div>
+        <div class="brand-sub">Harpers Ferry · Jun 5–7</div>
       </div>
     </div>
     <div class="live-dot">LIVE</div>
@@ -800,105 +800,33 @@
     </div>
   </div>
 
-  <!-- CABIN VOTE -->
+  <!-- THE CABIN (booked) -->
   <div class="section">
     <div class="section-head">
-      <div class="section-title">Cabin Vote</div>
-      <div class="section-meta" id="vote-status">No pick yet</div>
+      <div class="section-title">The Cabin</div>
+      <div class="section-meta">Locked in</div>
     </div>
-    <div class="vote-banner" id="vote-banner">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-      <div id="vote-banner-text">Tap your favorite — votes sync live to the group sheet.</div>
-    </div>
-    <div class="vote-identity" id="vote-identity" style="display:none">
-      <div class="vote-identity-name">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-        <span>Voting as</span>
-        <strong id="voter-name-display">—</strong>
-      </div>
-      <button class="vote-identity-edit" id="change-name-btn">Change</button>
-    </div>
-    <div class="vote-cards" id="votecards">
+    <div class="vote-cards">
 
-      <div class="vote-card" data-id="at">
-        <div class="vote-badge">Your Pick</div>
+      <div class="vote-card picked" style="cursor:default">
+        <div class="vote-badge">Booked</div>
         <div class="vote-head">
-          <div class="vote-name">The A.T. Cabin</div>
-          <div style="display:flex;align-items:center;gap:6px">
-            <span class="vote-tally-pill" data-tally="at">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-              <span data-tally-num="at">0</span>
-            </span>
-            <a class="vote-link" href="https://www.airbnb.com/rooms/624777244529903055" target="_blank" rel="noopener" onclick="event.stopPropagation()">
-              View
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
-          </div>
+          <div class="vote-name">Cottage w/ Hot Tub &amp; Valley Views</div>
+          <a class="vote-link" href="https://maps.google.com/?q=555+Skyline+Trail+Harpers+Ferry+WV+25425" target="_blank" rel="noopener">
+            Map
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
         </div>
         <div class="vote-stats">
-          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Sleeps 6</span>
-          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"/><path d="M22 4v16"/><path d="M2 8h20"/><path d="M2 14h20"/></svg>4 beds</span>
-          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>15m to casino</span>
-        </div>
-        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Very secluded — true off-the-grid feel</div>
-        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Closest to Hollywood Casino (15 min)</div>
-        <div class="vote-row con"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>Strict 10 PM quiet hours + noise monitors</div>
-        <button class="vote-btn"><span class="default-text">Vote for A.T. Cabin</span><span class="picked-text">✓ Your Pick</span></button>
-        <div class="vote-voters" data-voters="at"></div>
-      </div>
-
-      <div class="vote-card" data-id="log">
-        <div class="vote-badge">Your Pick</div>
-        <div class="vote-head">
-          <div class="vote-name">The Log Cabin</div>
-          <div style="display:flex;align-items:center;gap:6px">
-            <span class="vote-tally-pill" data-tally="log">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-              <span data-tally-num="log">0</span>
-            </span>
-            <a class="vote-link" href="https://www.airbnb.com/rooms/1452371397472114695" target="_blank" rel="noopener" onclick="event.stopPropagation()">
-              View
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
-          </div>
-        </div>
-        <div class="vote-stats">
-          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Sleeps 6</span>
-          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"/><path d="M22 4v16"/><path d="M2 8h20"/><path d="M2 14h20"/></svg>3 beds</span>
-          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5"/></svg>Wood fireplace</span>
-        </div>
-        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Classic mountain lodge feel</div>
-        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Real wood fireplace + fenced yard</div>
-        <div class="vote-row con"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>Only 3 actual beds (some sharing)</div>
-        <button class="vote-btn"><span class="default-text">Vote for Log Cabin</span><span class="picked-text">✓ Your Pick</span></button>
-        <div class="vote-voters" data-voters="log"></div>
-      </div>
-
-      <div class="vote-card" data-id="huck">
-        <div class="vote-badge">Your Pick</div>
-        <div class="vote-head">
-          <div class="vote-name">Huckleberry Hills</div>
-          <div style="display:flex;align-items:center;gap:6px">
-            <span class="vote-tally-pill" data-tally="huck">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-              <span data-tally-num="huck">0</span>
-            </span>
-            <a class="vote-link" href="https://www.airbnb.com/rooms/45733761" target="_blank" rel="noopener" onclick="event.stopPropagation()">
-              View
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            </a>
-          </div>
-        </div>
-        <div class="vote-stats">
-          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Sleeps 6</span>
-          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"/><path d="M22 4v16"/><path d="M2 8h20"/><path d="M2 14h20"/></svg>6 beds</span>
+          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>555 Skyline Trail</span>
+          <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Sleeps 8</span>
           <span class="vote-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h20"/><path d="M5 12V8a3 3 0 0 1 6 0v4"/><path d="M13 12V8a3 3 0 0 1 6 0v4"/><path d="M2 16c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2 2 2 4 2"/></svg>Hot tub</span>
         </div>
-        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Hot tub + fire pit + game room with ping pong</div>
-        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>6 actual beds — everyone has their own</div>
-        <div class="vote-row con"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>Furthest drive — 20–25 min to town</div>
-        <button class="vote-btn"><span class="default-text">Vote for Huckleberry Hills</span><span class="picked-text">✓ Your Pick</span></button>
-        <div class="vote-voters" data-voters="huck"></div>
+        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><div><strong style="color:var(--text)">Check-in</strong> · Fri, Jun 5 at 3:00 PM</div></div>
+        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><div><strong style="color:var(--text)">Check-out</strong> · Sun, Jun 7 at 11:00 AM</div></div>
+        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><div><strong style="color:var(--text)">Smart lock</strong> · Host sends the code</div></div>
+        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg><div><strong style="color:var(--text)">Wifi</strong> · Details delivered 48 hrs before check-in</div></div>
+        <div class="vote-row pro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><div><strong style="color:var(--text)">Host</strong> · Mountain Mama Vacation Homes</div></div>
       </div>
 
     </div>
@@ -968,20 +896,6 @@
   <div class="footer">Best Man Mode · <span>Brandon</span> · Locked In</div>
 </div>
 
-<!-- NAME MODAL -->
-<div class="modal-backdrop" id="name-modal">
-  <div class="modal">
-    <div class="modal-title">Who's voting?</div>
-    <div class="modal-sub">Quick — drop your name so the group can see who picked what.</div>
-    <input type="text" class="modal-input" id="name-input" placeholder="Your first name" autocomplete="given-name" maxlength="40" />
-    <div class="modal-error" id="name-error"></div>
-    <div class="modal-actions">
-      <button class="modal-btn" id="name-cancel">Cancel</button>
-      <button class="modal-btn primary" id="name-save">Save</button>
-    </div>
-  </div>
-</div>
-
 <script>
   // =====================================================================
   // CONFIG — paste your Apps Script Web App URL between the quotes:
@@ -1020,181 +934,6 @@
     voterName: null
   };
 
-  // ===== CABIN VOTE (live-synced to Google Sheet) =====
-  const voteEl = document.getElementById('votecards');
-  const voteStatus = document.getElementById('vote-status');
-  const voteBanner = document.getElementById('vote-banner');
-  const voteBannerText = document.getElementById('vote-banner-text');
-  const voteIdentity = document.getElementById('vote-identity');
-  const voterNameDisplay = document.getElementById('voter-name-display');
-  const changeNameBtn = document.getElementById('change-name-btn');
-  const voteNames = { at: 'A.T. Cabin', log: 'Log Cabin', huck: 'Huckleberry Hills' };
-
-  const NAME_KEY = 'bachelor-voter-name';
-  const isConfigured = WEB_APP_URL && !WEB_APP_URL.startsWith('__PASTE');
-
-  // Load saved name if any
-  try { state.voterName = localStorage.getItem(NAME_KEY) || null; } catch(_) {}
-
-  function renderIdentity() {
-    if (!isConfigured) {
-      voteBanner.classList.add('setup');
-      voteBannerText.innerHTML = '<b>Setup needed:</b> paste your Apps Script Web App URL into the HTML (top of &lt;script&gt;).';
-      voteIdentity.style.display = 'none';
-      return;
-    }
-    voteBanner.classList.remove('setup');
-    if (state.voterName) {
-      voterNameDisplay.textContent = state.voterName;
-      voteIdentity.style.display = 'flex';
-      voteBannerText.textContent = 'Tap a cabin to cast your vote — the group sees it instantly.';
-    } else {
-      voteIdentity.style.display = 'none';
-      voteBannerText.textContent = 'Tap a cabin to vote — we\'ll ask your name first.';
-    }
-  }
-
-  function renderVoteCards(tallies, voters) {
-    tallies = tallies || { at:0, log:0, huck:0 };
-    voters = voters || { at:[], log:[], huck:[] };
-    let total = 0;
-    Object.keys(tallies).forEach(id => {
-      total += tallies[id];
-      const numEl = document.querySelector('[data-tally-num="' + id + '"]');
-      if (numEl) numEl.textContent = tallies[id];
-      const votersEl = document.querySelector('[data-voters="' + id + '"]');
-      if (votersEl) {
-        if (voters[id].length) {
-          votersEl.innerHTML = '<span class="label">Voted:</span>' + voters[id].join(', ');
-        } else {
-          votersEl.innerHTML = '';
-        }
-      }
-    });
-    voteEl.querySelectorAll('.vote-card').forEach(c => {
-      if (c.dataset.id === state.vote) c.classList.add('picked');
-      else c.classList.remove('picked');
-    });
-    if (state.vote) {
-      voteStatus.textContent = 'You picked: ' + voteNames[state.vote] + ' · ' + total + ' total';
-    } else {
-      voteStatus.textContent = total ? (total + ' vote' + (total===1?'':'s') + ' so far') : 'No votes yet';
-    }
-  }
-
-  // Find current user's vote in fetched tallies (case-insensitive name match)
-  function reconcileMyVote(voters) {
-    if (!state.voterName) { state.vote = null; return; }
-    const me = state.voterName.toLowerCase();
-    state.vote = null;
-    Object.keys(voters || {}).forEach(id => {
-      (voters[id] || []).forEach(n => {
-        if (String(n).toLowerCase() === me) state.vote = id;
-      });
-    });
-  }
-
-  async function fetchTallies() {
-    if (!isConfigured) return;
-    try {
-      const r = await fetch(WEB_APP_URL, { method: 'GET' });
-      const data = await r.json();
-      if (data && data.ok) {
-        reconcileMyVote(data.voters);
-        renderVoteCards(data.tallies, data.voters);
-      }
-    } catch (err) {
-      console.warn('Tally fetch failed:', err);
-    }
-  }
-
-  async function submitVote(voteId) {
-    if (!isConfigured || !state.voterName) return;
-    // Optimistic UI
-    state.vote = voteId;
-    voteEl.querySelectorAll('.vote-card').forEach(c => {
-      c.classList.toggle('picked', c.dataset.id === voteId);
-    });
-    try {
-      const r = await fetch(WEB_APP_URL, {
-        method: 'POST',
-        // text/plain avoids the CORS preflight that Apps Script can't handle
-        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-        body: JSON.stringify({ name: state.voterName, vote: voteId || '' })
-      });
-      const data = await r.json();
-      if (data && data.ok) {
-        reconcileMyVote(data.voters);
-        renderVoteCards(data.tallies, data.voters);
-      } else {
-        console.warn('Vote rejected:', data && data.error);
-        fetchTallies();
-      }
-    } catch (err) {
-      console.warn('Vote submit failed:', err);
-      fetchTallies();
-    }
-  }
-
-  // ===== NAME MODAL =====
-  const modal = document.getElementById('name-modal');
-  const nameInput = document.getElementById('name-input');
-  const nameError = document.getElementById('name-error');
-  let pendingVote = null;
-
-  function openNameModal(forVoteId) {
-    pendingVote = forVoteId || null;
-    nameInput.value = state.voterName || '';
-    nameError.textContent = '';
-    modal.classList.add('show');
-    setTimeout(() => nameInput.focus(), 50);
-  }
-  function closeNameModal() {
-    modal.classList.remove('show');
-    pendingVote = null;
-  }
-  document.getElementById('name-cancel').addEventListener('click', closeNameModal);
-  document.getElementById('name-save').addEventListener('click', () => {
-    const v = (nameInput.value || '').trim();
-    if (!v) { nameError.textContent = 'Need a name to vote.'; return; }
-    if (v.length > 40) { nameError.textContent = 'Keep it under 40 characters.'; return; }
-    state.voterName = v;
-    try { localStorage.setItem(NAME_KEY, v); } catch(_) {}
-    closeNameModal();
-    renderIdentity();
-    if (pendingVote) submitVote(pendingVote);
-    else fetchTallies();
-  });
-  nameInput.addEventListener('keydown', e => {
-    if (e.key === 'Enter') document.getElementById('name-save').click();
-  });
-  modal.addEventListener('click', e => {
-    if (e.target === modal) closeNameModal();
-  });
-  changeNameBtn.addEventListener('click', () => openNameModal(null));
-
-  // Card click → vote (or open name modal first)
-  voteEl.addEventListener('click', e => {
-    if (e.target.closest('a')) return;
-    const card = e.target.closest('.vote-card');
-    if (!card) return;
-    if (!isConfigured) return;
-    const voteId = card.dataset.id;
-    // Toggle off if clicking your existing pick
-    const newVote = (state.vote === voteId) ? '' : voteId;
-    if (!state.voterName) {
-      openNameModal(newVote || voteId);
-      return;
-    }
-    submitVote(newVote);
-  });
-
-  // Initial render + periodic refresh
-  renderIdentity();
-  renderVoteCards();
-  fetchTallies();
-  setInterval(fetchTallies, 20000);
-
   // ===== GOALS =====
   const goalsEl = document.getElementById('goals');
   const goalsCountEl = document.getElementById('goals-count');
@@ -1226,9 +965,12 @@
       { id:'social', time:'4:00 PM', title:'Cabin Social Hour', type:'cabin', tag:'Hangout',
         icon:'<path d="M8 22h8"/><path d="M7 10h10l-3 5h-4z"/><path d="M12 15v7"/><path d="M5 2h14l-2 8H7z"/>',
         detail:'Board games and a few drinks while everyone arrives. No pressure — just settle in.' },
-      { id:'casinoF', time:'7:30 PM', title:'Casino Night', type:'casino', tag:'Main',
-        icon:'<rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.2" fill="currentColor"/><circle cx="16" cy="16" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="16" cy="8" r="1.2" fill="currentColor"/><circle cx="8" cy="16" r="1.2" fill="currentColor"/>',
-        detail:'Hollywood Casino. Dinner at the sportsbook or steakhouse first, then tables and slots. Set a budget before you walk in.' }
+      { id:'campfire', time:'7:30 PM', title:'The Main Campfire', type:'cabin', tag:'★ Toasts',
+        icon:'<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5"/>',
+        detail:"Fire pit, grilling, and the bachelor party toasts. Everyone's fresh and present — this is the right night for the speeches." },
+      { id:'townrun', time:'10:00 PM', title:'Optional Town Run', type:'bar', tag:'Optional',
+        icon:'<path d="M8 22h8"/><path d="M7 10h10l-3 5h-4z"/><path d="M12 15v7"/><path d="M5 2h14l-2 8H7z"/>',
+        detail:'Uber into downtown Charles Town for a nightcap. Skip if the fire is still going — heads up, hike call is 10 AM.' }
     ]},
     { day: 'Saturday · June 6', items: [
       { id:'fuel', time:'9:30 AM', title:'Breakfast / Fuel', type:'cabin', tag:'Quick',
@@ -1242,13 +984,10 @@
         detail:'The Rabbit Hole or Harpers Ferry Brewing. Order big — we earned it.' },
       { id:'lockdown', time:'3:30 PM', title:'Cabin Lockdown', type:'cabin', tag:'Recovery',
         icon:'<path d="M12 2 4 7v6c0 5 3.5 8.5 8 9 4.5-.5 8-4 8-9V7z"/>',
-        detail:'Hot tub, intense board games, general recovery. The unscheduled block is sacred — protect it.' },
-      { id:'campfire', time:'7:30 PM', title:'The Main Campfire', type:'cabin', tag:'★ Toasts',
-        icon:'<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5"/>',
-        detail:"Fire pit, grilling, and the bachelor party toasts. The cabin's fire pit and wood are covered." },
-      { id:'townrun', time:'10:00 PM', title:'Optional Town Run', type:'bar', tag:'Optional',
-        icon:'<path d="M8 22h8"/><path d="M7 10h10l-3 5h-4z"/><path d="M12 15v7"/><path d="M5 2h14l-2 8H7z"/>',
-        detail:'Uber into downtown Charles Town for a final round. Skip if the fire is still going strong.' }
+        detail:'Hot tub, board games, nap territory. Recharge before the casino — it\'s a long night.' },
+      { id:'casinoSat', time:'7:30 PM', title:'Casino Night', type:'casino', tag:'★ Headline',
+        icon:'<rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.2" fill="currentColor"/><circle cx="16" cy="16" r="1.2" fill="currentColor"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/><circle cx="16" cy="8" r="1.2" fill="currentColor"/><circle cx="8" cy="16" r="1.2" fill="currentColor"/>',
+        detail:'Hollywood Casino — the headline night. Dinner at the sportsbook or steakhouse first, then tables and slots. Set a budget before you walk in.' }
     ]},
     { day: 'Sunday · June 7', items: [
       { id:'checkout', time:'11:00 AM', title:'Check-out', type:'cabin', tag:'Hard stop',
